@@ -60,52 +60,62 @@ class OrangeTree
   end
 end
 
-# Ok, the OrangeTree class is ready. The following code is just for test how
-# it works.
+# Ok, the OrangeTree class is ready. The following code is just for do
+# non-formal tests on how it works.
 
 # Setting a couple of constants for organge trees.
 MAX_AGE    = 70   # years
 MAX_HEIGHT = 1500 # centimeters
 
-puts "1) The tree can be created, and the new sprout has 0 age, height and"
-puts "oranges:"
+puts "1) The tree can be created, and the new sprout has 0 height and oranges: "
+puts "A new tree sprouts!"
 tree = OrangeTree.new(MAX_AGE, MAX_HEIGHT)
-puts tree.height          # >> 0
-puts tree.countTheOranges # >> 0
+puts "Tree height: " + tree.height.to_s # >> 0
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> 0
 puts
 
 puts "2) The tree grows a little every year:"
-puts tree.height # >> 0
+puts "Tree height: " + tree.height.to_s # >> 0
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.height # >> n > 0
+puts "Tree height: " + tree.height.to_s # >> n > 0
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.height # >> m > n
+puts "Tree height: " + tree.height.to_s # >> m > n
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.height # >> o > m
+puts "Tree height: " + tree.height.to_s # >> o > m
 puts 
 
 puts "3) The tree yields more oranges every year but 0 the first 3 years:"
+puts "A new tree sprouts!"
 tree = OrangeTree.new(MAX_AGE, MAX_HEIGHT)
-puts tree.countTheOranges # >> 0
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> 0
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.countTheOranges # >> 0
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> 0
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.countTheOranges # >> 0
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> 0
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.countTheOranges # >> n >= 0
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> n >= 0
+puts "A year passes..."
 tree.oneYearPasses
-puts tree.countTheOranges # >> m >= n >= 0
-tree.oneYearPasses
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> m >= n >= 0
 puts
 
 puts "4) Picking an orange reduces the number of oranges by one:"
-puts tree.countTheOranges # >> n
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> n
+puts "We pick an orange..."
 tree.pickAnOrange
-puts tree.countTheOranges # >> m < n
+puts "Oranges in the tree: " + tree.countTheOranges.to_s # >> m < n
 puts
 
 puts "5) The tree dies after some years:"
+puts "A new tree sprouts!"
 tree = OrangeTree.new(MAX_AGE, MAX_HEIGHT)
+puts "We fast forward 70 years..."
 (MAX_AGE + 1).times do
   tree.oneYearPasses
 end # >> Your tree slowly whitered away... Now it's just wood.
