@@ -12,14 +12,14 @@ print "What day was it? (1 to 31): "
 day   = gets.chomp.to_i
 
 birth = Time.new(year, month, day)
-age   = (Time.now - birth) / 31536000
+age   = (Time.now - birth) / 31536000 # Seconds in a year.
 
-puts  "So, are you " + age.to_i.to_s + "? Then let's have some traditional fun!"
-puts "*gets you bent, over my knees, pants down* "
+puts "So, are you " + age.to_i.to_s + "? Then let's have some traditional fun!"
+puts "*gets you bent, over my knees* "
 
 age.to_i.times do
   print "SPANK! "
 end
 
 puts
-puts "It was fun, wasn't it? Some traditions should not die. xD"
+puts "It was fun, wasn't it? Some traditions should not die. :)"
