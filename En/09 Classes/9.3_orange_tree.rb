@@ -38,7 +38,10 @@ class OrangeTree
       @height  = @height + rand(@max_height / @max_age + 1)
       # ...and increase the number of oranges available this year over the ones
       # available the last year, but only if the tree has an age bigger than 2.
-      @orangeCount   = @lastYearCount + (rand 7) if @age > 2
+      if @age > 2
+        @orangeCount   = @lastYearCount + (rand 7)
+      end
+      
       @lastYearCount = @orangeCount
     end
   end
