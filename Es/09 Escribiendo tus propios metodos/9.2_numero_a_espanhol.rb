@@ -162,22 +162,17 @@ def numero_pequenho numero
   texto
 end
 
-# puts numero_a_espanol(  0)
-# puts numero_a_espanol(  9)
-# puts numero_a_espanol( 10)
-# puts numero_a_espanol( 11)
-# puts numero_a_espanol( 17)
-# puts numero_a_espanol( 32)
-# puts numero_a_espanol( 88)
-# puts numero_a_espanol( 99)
-# puts numero_a_espanol(100)
-# puts numero_a_espanol(101)
-# puts numero_a_espanol(234)
-# puts numero_a_espanol(32111)
-# puts numero_a_espanol(99999)
-# puts numero_a_espanol(1000000000000)
-
-print "Dame un número: "
-n = gets.chomp.to_i
-
-puts numero_a_espanol n
+puts numero_a_espanol(  0)
+puts numero_a_espanol(  9)
+puts numero_a_espanol( 10)
+puts numero_a_espanol( 11)
+puts numero_a_espanol( 17)
+puts numero_a_espanol( 32)
+puts numero_a_espanol( 88)
+puts numero_a_espanol( 99)
+puts numero_a_espanol(100)
+puts numero_a_espanol(101)
+puts numero_a_espanol(234)
+puts numero_a_espanol(32111)
+puts numero_a_espanol(99999)
+puts numero_a_espanol(1000000000000)
