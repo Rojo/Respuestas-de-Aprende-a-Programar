@@ -18,7 +18,7 @@
 def log(description, &block)
   puts  "Beginning \"" + description + "\"..."
   value = yield.to_s
-  puts  "...\"" + description + "\"" + " finished, returning: " + value
+  puts  "...\"" + description + "\" finished, returning: " + value
 end
 
 outer = Proc.new do

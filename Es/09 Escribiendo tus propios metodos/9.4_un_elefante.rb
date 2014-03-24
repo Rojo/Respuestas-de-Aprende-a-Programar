@@ -173,9 +173,9 @@ def balancear elefantes
 
   while contador <= elefantes
     if elefantes == 1
-      puts numero_a_espanol(contador) + rima_1
+      puts numero_a_espanol(contador).capitalize + rima_1
     else
-      puts numero_a_espanol(contador) + rima_n
+      puts numero_a_espanol(contador).capitalize + rima_n
     end
 
     contador = contador + 1
