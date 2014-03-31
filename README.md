@@ -1,8 +1,27 @@
 
-Content / Contenido
-===================
+Aprende a programar: Respuestas
+===============================
 
-This repository contains answers to exercises found in the book [“Learn to Program"](http://www.amazon.com/Learn-Program-Pragmatic-Programmers-Chris/dp/0976694042/ref=sr_1_1?s=books&ie=UTF8&qid=1392861001&sr=1-1&keywords=0976694042) by Chris Pine (ISBN 0-9766940-4-2). You may use the code as reference, but you should not use it “as is” for any kind of competition or assignment.
+Éste repositorio contiene código como respuesta a los ejercicios sugeridos en el tutorial «[Aprende a programar][1]» escrito por [Chris Pine][2]. Por favor, utiliza el material que aquí se encuentra sólo como una referencia para ayudarte a dar solución a los ejercicios pero tratando de resolverlos por ti mismo. También, toma en cuenta que puede haber más de una forma de resolver un mismo ejercicio, así que las soluciones que has encontrado por ti mismo son también correctas (siempre que se obtenga el resultado esperado, claro).
+
+La soluciones se dan tanto en español (_es_) como en inglés (_en_). Así podrás comparar ambos y, si encuentras algún error, puedes enviar correcciones o sugerencias.
+
+Lista de ejercicios
+-------------------
+
+ 01.- **Números**
+ 04.- **Mezclando todo**
+ 05.- **Más acerca de los métodos**
+ 07.- **Control de flujo**
+ 08.- **Arreglos e iteradores**
+ 09.- **Escribiendo tus propios métodos**
+ 10.- **Clases**
+ 11.- **Bloques y procs**
 
 ---
-Éste repositorio contiene respuestas a los ejercicios encontrados en el libro [«Learn to Program»](http://www.amazon.com/Learn-Program-Pragmatic-Programmers-Chris/dp/0976694042/ref=sr_1_1?s=books&ie=UTF8&qid=1392861001&sr=1-1&keywords=0976694042]) escrito por Chris Pine (ISBN  0-9766940-4-2). Puedes usar el código como material de referencia, pero no deberías usarlo «tal cual» dentro de ningún tipo de competencia o como tarea/proyecto de alguna asignatura.
+Nota: Si has concluido el tutorial, tienes un nivel intermedio de inglés y quisieras aprender un poco más, te recomiendo comprar «[Learn to Program][3]», que es la versión extendida del tutorial.
+
+
+  [1]: http://goo.gl/3UcZi
+  [2]: http://pine.fm/
+  [3]: http://pragprog.com/book/ltp2/learn-to-program
