@@ -17,8 +17,8 @@ while word != ''
   word = gets.chomp
 
   if word != ''
-    
-    if words == []
+
+    if (words == []) or (word > words.last)
       words.push word
     else
       sorted = []
