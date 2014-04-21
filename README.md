@@ -1,8 +1,7 @@
-
 Aprende a programar: Respuestas
 ===============================
 
-Éste repositorio contiene código como respuesta a los ejercicios sugeridos en el tutorial «[Aprende a programar][1]» escrito por [Chris Pine][2]. Por favor, utiliza el material que aquí se encuentra sólo como una referencia para ayudarte a dar solución a los ejercicios pero tratando de resolverlos por ti mismo. También, toma en cuenta que puede haber más de una forma de resolver un mismo ejercicio, así que las soluciones que has encontrado por ti mismo son también correctas (siempre que se obtenga el resultado esperado, claro).
+Este repositorio contiene código como respuesta a los ejercicios sugeridos en el tutorial «[Aprende a programar][1]» escrito por [Chris Pine][2]. Por favor, utiliza el material que aquí se encuentra sólo como una referencia para ayudarte a dar solución a los ejercicios pero tratando de resolverlos por ti mismo. También, toma en cuenta que puede haber más de una forma de resolver un mismo ejercicio, así que las soluciones que has encontrado por ti mismo son también correctas (siempre que se obtenga el resultado esperado, claro).
 
 La soluciones se dan tanto en español (_es_) como en inglés (_en_). Así podrás comparar ambos y, si encuentras algún error, puedes enviar correcciones o sugerencias.
 
@@ -14,7 +13,7 @@ Lista de ejercicios
    - ¿Cuántas horas hay en un año?
    - ¿Cuántos minutos hay en una década?
    - ¿Cuántos segundos de edad tienes?
-   - ¿Cuántos chocolates esperas comer en tu vida? _Advertencia_: ¡Ésta parte del programa puede tardar un poco en calcularse!
+   - ¿Cuántos chocolates esperas comer en tu vida? _Advertencia_: ¡Esta parte del programa puede tardar un poco en calcularse!
    - Una pregunta un poco más difícil: ¿Si tengo 1031 millones de segundos de edad, qué edad tengo en años?
   - **Mezclando todo**
    - Escribe un programa que pregunte por el nombre y apellidos de una persona. Al final, debe saludar a la persona usando su nombre completo.
@@ -28,7 +27,7 @@ Lista de ejercicios
     Capítulo 3: Variables ................ página 118```
   - **Control de flujo**
    - «Un elefante se balanceaba...» Escribe un programa que imprima 99 veces la letra de ésta clásica canción infantil: «1 elefante se balanceaba sobre la tela de una araña».
-   - Escribe el programa de la abuela sorda. Para cualquier cosa que le digas a la abuela (esto es, cualquier cosa que escribas), ella debe responder con ¿¡QUÉ!? ¡HABLA MÁS FUERTE HIJITO!, a menos que se lo digas gritando (escribiendo todo en mayúsculas). Si gritas, ella podrá escucharte (o al menos eso creerá ella) y te responderá gritando ¡NO, NO DESDE 1938! Para hacer el programa realmente creíble, haz que la abuela grite un año cualquiera al azar entre 1930 y 1950. (Ésta parte del programa es opcional y será mucho más fácil de realizar si lees la sección del generador de números aleatorios de Ruby al final del capítulo sobre métodos). No puedes dejar de hablar con la abuela hasta que grites ADIÓS.
+   - Escribe el programa de la abuela sorda. Para cualquier cosa que le digas a la abuela (esto es, cualquier cosa que escribas), ella debe responder con ¿¡QUÉ!? ¡HABLA MÁS FUERTE HIJITO!, a menos que se lo digas gritando (escribiendo todo en mayúsculas). Si gritas, ella podrá escucharte (o al menos eso creerá ella) y te responderá gritando ¡NO, NO DESDE 1938! Para hacer el programa realmente creíble, haz que la abuela grite un año cualquiera al azar entre 1930 y 1950. (Esta parte del programa es opcional y será mucho más fácil de realizar si lees la sección del generador de números aleatorios de Ruby al final del capítulo sobre métodos). No puedes dejar de hablar con la abuela hasta que grites ADIÓS.
     **Pista**: ¡No te olvides de chomp! ¡'ADIÓS' con un Intro no es lo mismo que un 'ADIÓS' sin uno!
     **Pista 2**: Trata de pensar acerca de partes de tu programa tienen que repetirse una y otra vez. Todas ellas deben estar dentro de una iteración con while.
    - Extiende tu programa de la abuela sorda: ¿Qué hay si la abuela no quiere que te vayas? Cuando grites ADIÓS, ella puede pretender no oirte. Cambia tu programa anteior para que tengas que gritar ADIÓS tres veces seguidas. Asegúrate de probar tu programa: si dices ADIÓS tres veces pero no de forma consecutiva, debes de seguir hablando con la abuela.
@@ -44,7 +43,7 @@ Lista de ejercicios
    - ¿Qué tal un programa que escriba números en estilo de números de boda? Debería ser casi lo mismo que `numero_a_espanol`, pero insertando «y» entre los grupos de unidades, retornando cosas como 'diecinueve cientos y setenta y dos' o como se supone que se deben escribir los números en las invitaciones de boda. Te daría más ejemplos, pero yo mismo no lo he terminado de entender. Podrías necesitar contactar a tu organizador de bodas más cercano.
    - «Un elefante se balanceaba…» Usando `numero_a_espanol` y tu viejo programa, escribe la letra de la canción de la forma correcta ésta vez. Castiga a tu computadora: deja que alcance hasta 9,999 elefantes. (Pero tampoco escojas un número muy grande ya que escribir todo eso en la pantalla puede tomar bastante tiempo aún a una computadora; si pones como límite un millón de elefantes, ¡te estarás castigando también a ti mismo!)
   - **Clases**
-   -  «Un millardo de sedundos...» Encuentra el segundo exacto en el que naciste (si es que puedes). Intenta averiguar el segundo exacto en el que tendrás (¿o en el que cumpliste, quizá?) un millardo de segundos de edad. Cuando lo averigües, marca la fecha en tu calendario.
+   -  «Un millardo de segundos...» Encuentra el segundo exacto en el que naciste (si es que puedes). Intenta averiguar el segundo exacto en el que tendrás (¿o en el que cumpliste, quizá?) un millardo de segundos de edad. Cuando lo averigües, marca la fecha en tu calendario.
    -  ¡Feliz cumpleaños! Pregunta en qué año nació una persona, después el mes y por último el día. Averigua su edad y dales una ¡NALGADA! Por cada cumpleaños que han tenido.
    -  Crea la clase Naranjo. Debe tener el método `altura` que retorna su altura, y el método `doceMesesDespues`, el cual, cuando es llamado, incrementa la edad del árbol por un año. Cada año, el árbol debe crecer a lo alto (lo que tú consideres que debe crecer un naranjo en un año), y después de cierto número de años (de nuevo, a tu criterio) el árbol debe morir. En los primeros años no debe producir naranjas, pero después de un poco debe hacerlo, y creo que los árboles viejos producen más cada año que los árboles jóvenes… conforme tú creas que tiene más sentido. Por supuesto, debes ser capaz de `contarLasNaranjas` (retornando el número de naranjas en el árbol), y `cortarNaranja` (que reduce el número de `@naranjas` en uno y retorna una cadena diciendo que tan deliciosa estaba esa naranja o que no hay más naranjas para cortar éste año). Asegúrate de que todas las naranjas que no sean cortadas en un año, caigan del árbol antes del siguiente año.
    -  Escribe un programa con el que puedas interactuar con tu pequeño dragón. Debes ser capaz de introducir comandos como alimentar y pasear, y que los métodos correspondientes en tu dragón sean llamados. Claro, como lo que tú escribirás será sólo texto, necesitarás tener algún tipo de despachador de métodos, donde tu programa revise el texto que ha sido introducido y llame el método apropiado.
