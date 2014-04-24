@@ -1,7 +1,6 @@
-
 # encoding: UTF-8
 
-# Escribe el programa «Jefe enojado». Debe preguntar de forma ruda que es lo que
+# Escribe el programa «Jefe enojado». Debe preguntar de forma ruda qué es lo que
 # quieres. Lo que sea que le pidas, el jefe enojado debe contestarte gritando y
 # después, despedirte. Así que, por ejemplo, si tú escribes «Quiero un aumento.»
 # él debe contestar gritando: ¿¡¿QUÉ QUIERES DECIR CON «QUIERO UN AUMENTO»?!?
