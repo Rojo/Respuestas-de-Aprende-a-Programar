@@ -1,3 +1,4 @@
+
 # encoding: UTF-8
 
 # Escribe el programa «Jefe enojado». Debe preguntar de forma ruda qué es lo que

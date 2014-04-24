@@ -208,11 +208,20 @@ Lista de ejercicios
       ...«bloque exterior» terminó, retornando: false
       ```
 
----
-Nota: Si has concluido el tutorial, tienes un nivel intermedio de inglés y
+
+Notas
+-----
+- Si has concluido el tutorial, tienes un nivel intermedio de inglés y
 quisieras aprender un poco más, te recomiendo comprar «[Learn to Program][57]»,
 que es la versión extendida del tutorial.
-
+- ¡Puedes practicar aún más! La lista de ejercicios que se publicó en «Learn to
+  Program» esta disponible en este repositorio. (De igual forma, se requiere
+  un nivel medio en inglés y el investigar un poco sobre temás no vistos en el
+  tutorial.)
+- Las descripciones de los problemas en el material en inglés son &copy; Chris
+  Pine. A menos que se indique lo contrario, todo código incluido en éste
+  repositorio es de dominio público bajo los términos de la licencia [Creative
+  Commons CC0 1.0 Universal License][58].
 
   [1]: http://goo.gl/3UcZi
   [2]: http://pine.fm/
@@ -271,3 +280,5 @@ que es la versión extendida del tutorial.
   [55]: https://github.com/Rojo/Respuestas-de-Aprende-a-Programar/blob/master/Es/11%20Bloques%20y%20procs/11.03_mejor_registro.rb
   [56]: https://github.com/Rojo/Respuestas-de-Aprende-a-Programar/blob/master/En/10%20Blocks%20and%20Procs/10.3_better_logger.rb
   [57]: http://pragprog.com/book/ltp2/learn-to-program
+  [58]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  
