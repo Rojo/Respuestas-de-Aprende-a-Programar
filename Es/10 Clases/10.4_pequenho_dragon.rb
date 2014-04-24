@@ -87,7 +87,7 @@ class Dragon
         puts '¡' + @nombre + ' se levanta repentinamente!'
       end 
       puts '¡' + @nombre + ' muere de hambre! ¡Desesperado, TE DEVORA!'
-      exit # Ésto termina el programa. 
+      exit # Esto termina el programa. 
     end
     if @nivel_intestino >= 10 
       puts '¡Ooops! ' + @nombre + ' tuvo un accidente...'
