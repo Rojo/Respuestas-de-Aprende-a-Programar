@@ -3,12 +3,12 @@
 # Pregunta en qué año nació una persona, después el mes y por último el día.
 # Averigua su edad y dales una ¡NALGADA! Por cada cumpleaños que han tenido.
 
-puts  "¡Hola! Permiteme hacer la cuenta de cuantos años tienes."
-print "¿En que año naciste? "
+puts  "¡Hola! Permíteme hacer la cuenta de cuántos años tienes."
+print "¿En qué año naciste? "
 anho  = gets.chomp.to_i
-print "¿En que mes? (del 1 al 12): "
+print "¿En qué mes? (del 1 al 12): "
 mes   = gets.chomp.to_i
-print "¿En que día del mes? (del 1 al 31): "
+print "¿En qué día del mes? (del 1 al 31): "
 dia   = gets.chomp.to_i
 
 nacimiento = Time.new(anho, mes, dia)
