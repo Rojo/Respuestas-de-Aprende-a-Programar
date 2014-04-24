@@ -1,4 +1,3 @@
-
 # Escribe un programa con el que puedas interactuar con tu pequeño dragón. Debes
 # ser capaz de introducir comandos como alimentar y pasear, y que los métodos
 # correspondientes en tu dragón sean llamados. Claro, como lo que tú escribirás
@@ -12,7 +11,7 @@ class Dragon
   def initialize nombre
     @nombre          = nombre
     @durmiendo       = false 
-    @nivel_estomago  = 10 # Ésta lleno. 
+    @nivel_estomago  = 10 # Está lleno. 
     @nivel_intestino =  0 # No necesita ir al baño. 
     puts '¡' + @nombre + ' ha nacido!'
   end 
@@ -45,7 +44,7 @@ class Dragon
   end 
 
   def alzar 
-    puts 'Cargas a ' + @nombre + ' en brazos, alzandolo a lo alto.'
+    puts 'Cargas a ' + @nombre + ' en brazos, alzándolo a lo alto.'
     puts 'Él ríe, quemando tus pestañas.'
     paso_del_tiempo
   end 
@@ -56,7 +55,7 @@ class Dragon
     puts 'Él cierra los ojos un momento...'
     paso_del_tiempo
     if @durmiendo
-      puts '...pero despierta en cuanto te detienes.'
+      puts '... pero despierta en cuanto te detienes.'
     end 
   end 
 
@@ -88,7 +87,7 @@ class Dragon
         puts '¡' + @nombre + ' se levanta repentinamente!'
       end 
       puts '¡' + @nombre + ' muere de hambre! ¡Desesperado, TE DEVORA!'
-      exit # Esto termina el programa. 
+      exit # Ésto termina el programa. 
     end
     if @nivel_intestino >= 10 
       puts '¡Ooops! ' + @nombre + ' tuvo un accidente...'
@@ -114,7 +113,7 @@ end
 # ============================================================================
 
 # Ahora, el código para interactuar con el dragón
-puts "Hola. Que bueno que llegaste a tiempo. ¡Tu dragón está naciendo!"
+puts "Hola. Qué bueno que llegaste a tiempo. ¡Tu dragón está naciendo!"
 puts "(Sabes, creo que deberías darle un nombre.)"
 print "Name: "
 mascota = Dragon.new(gets.chomp)
@@ -146,7 +145,7 @@ while true
     puts "Esperemos que le vaya bien..."
     exit
   else
-    puts "Perdon, no comprendí tu respuesta."
+    puts "Perdón, no comprendí tu respuesta."
   end
 
   puts
