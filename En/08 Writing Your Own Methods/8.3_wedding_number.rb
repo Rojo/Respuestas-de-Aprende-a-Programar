@@ -33,7 +33,7 @@ def englishNumber number, pre_text
   end
 
   numString = ''  # This is the string we will return.
-  
+
   # Section for numbers starting from 100 and above ###########################
 
   # If number is below 100, we do not jump here
@@ -49,7 +49,7 @@ def englishNumber number, pre_text
       [1e12.to_i, 'trillion'], [1e9.to_i, 'billion'], [1e6.to_i, 'million'],
       [1e3.to_i, 'thousand'], [1e2.to_i, 'hundred']
     ]
-  
+
     # "left" is how much of the number we still have left to write out.
     # "write" is the part we are writing out right now.
     # write and left... get it?  :)
@@ -108,14 +108,14 @@ def smallEnglishNumber number, pre_text
   left  = number
   write = left / 10       # How many tens left to write out?
   left  = left - write*10 # Subtract off those tens.
-  
+
   if write > 0
     if ((write == 1) and (left > 0))
       # Since we can't write "tenty and two" instead of "twelve",
       # we have to make a special exception for these.
       numString = numString + teenagers[left - 1]
       # The "-1" is because teenagers[3] is 'fourteen', not 'thirteen'.
-      
+
       # Since we took care of the digit in the ones place already,
       # we have nothing left to write.
       left = 0
@@ -123,23 +123,23 @@ def smallEnglishNumber number, pre_text
       numString = numString + tensPlace[write - 1]
       # The "-1" is because tensPlace[3] is 'forty', not 'thirty'.
     end
-    
+
     if left > 0
       # So we write 'sixty and four'...
       numString = numString + ' and '
     end
   end
-  
+
   # Ones section ##############################################################
 
   write = left  # How many ones left to write out?
   left  = 0     # Subtract off those ones.
-  
+
   if write > 0
     numString = numString + onesPlace[write - 1]
     # The "-1" is because onesPlace[3] is 'four', not 'three'.
   end
-  
+
   # Here we check if there is some string already written. If it is, we prepend
   # an "and " to make it more formal (?).
   if pre_text
@@ -164,3 +164,8 @@ puts weddingNumber(234)
 puts weddingNumber(3211)
 puts weddingNumber(999999)
 puts weddingNumber(1000000000000)
+
+__END__
+
+The code for this program is based on the example given by Chris Pine in his
+tutorial.

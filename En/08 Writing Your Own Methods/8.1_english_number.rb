@@ -10,18 +10,18 @@ def englishNumber number
   if number == 0
     return 'zero'
   end
-  
+
   #  No more special cases!  No more returns!
-  
+
   numString = ''  #  This is the string we will return.
-  
+
   onesPlace = ['one',     'two',       'three',    'four',     'five',
                'six',     'seven',     'eight',    'nine']
   tensPlace = ['ten',     'twenty',    'thirty',   'forty',    'fifty',
                'sixty',   'seventy',   'eighty',   'ninety']
   teenagers = ['eleven',  'twelve',    'thirteen', 'fourteen', 'fifteen',
                'sixteen', 'seventeen', 'eighteen', 'nineteen']
-  
+
   #  "left" is how much of the number we still have left to write out.
   #  "write" is the part we are writing out right now.
   #  write and left... get it?  :)
@@ -46,30 +46,30 @@ def englishNumber number
 
   write = left/100          #  How many hundreds left to write out?
   left  = left - write*100  #  Subtract off those hundreds.
-  
+
   if write > 0
     #  Do a recursive call.
     hundreds  = englishNumber write
     numString = numString + hundreds + ' hundred'
-    
+
     if left > 0
       #  So we don't write 'two hundredfifty-one'...
       numString = numString + ' '
     end
   end
-  
+
   # Tens section.
 
   write = left/10          #  How many tens left to write out?
   left  = left - write*10  #  Subtract off those tens.
-  
+
   if write > 0
     if ((write == 1) and (left > 0))
       #  Since we can't write "tenty-two" instead of "twelve",
       #  we have to make a special exception for these.
       numString = numString + teenagers[left-1]
       #  The "-1" is because teenagers[3] is 'fourteen', not 'thirteen'.
-      
+
       #  Since we took care of the digit in the ones place already,
       #  we have nothing left to write.
       left = 0
@@ -77,23 +77,23 @@ def englishNumber number
       numString = numString + tensPlace[write-1]
       #  The "-1" is because tensPlace[3] is 'forty', not 'thirty'.
     end
-    
+
     if left > 0
       #  So we don't write 'sixtyfour'...
       numString = numString + '-'
     end
   end
-  
+
   # Ones section.
 
   write = left  #  How many ones left to write out?
   left  = 0     #  Subtract off those ones.
-  
+
   if write > 0
     numString = numString + onesPlace[write-1]
     #  The "-1" is because onesPlace[3] is 'four', not 'three'.
   end
-  
+
   #  Now we just return "numString"...
   numString
 end
@@ -112,3 +112,8 @@ puts englishNumber(234)
 puts englishNumber(3211)          # Thousands output
 puts englishNumber(999999)        #        "
 puts englishNumber(1000000000000) #        "
+
+__END__
+
+The code for this program is based on the example given by Chris Pine in his
+tutorial.

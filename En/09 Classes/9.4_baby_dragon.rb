@@ -8,28 +8,28 @@
 
 # Given Dragon class code ====================================================
 class Dragon
-  
+
   def initialize name
     @name = name
     @asleep = false
     @stuffInBelly     = 10  #  He's full.
     @stuffInIntestine =  0  #  He doesn't need to go.
-    
+
     puts @name + ' is born.'
   end
-  
+
   def feed
     puts 'You feed ' + @name + '.'
     @stuffInBelly = 10
     passageOfTime
   end
-  
+
   def walk
     puts 'You walk ' + @name + '.'
     @stuffInIntestine = 0
     passageOfTime
   end
-  
+
   def putToBed
     puts 'You put ' + @name + ' to bed.'
     @asleep = true
@@ -46,13 +46,13 @@ class Dragon
       puts @name + ' wakes up slowly.'
     end
   end
-  
+
   def toss
     puts 'You toss ' + @name + ' up into the air.'
     puts 'He giggles, which singes your eyebrows.'
     passageOfTime
   end
-  
+
   def rock
     puts 'You rock ' + @name + ' gently.'
     @asleep = true
@@ -63,24 +63,24 @@ class Dragon
       puts '...but wakes when you stop.'
     end
   end
-  
+
   private
-  
+
   #  "private" means that the methods defined here are
   #  methods internal to the object.  (You can feed
   #  your dragon, but you can't ask him if he's hungry.)
-  
+
   def hungry?
     #  Method names can end with "?".
     #  Usually, we only do this if the method
     #  returns true or false, like this:
     @stuffInBelly <= 2
   end
-  
+
   def poopy?
     @stuffInIntestine >= 8
   end
-  
+
   def passageOfTime
     if @stuffInBelly > 0
       #  Move food from belly to intestine.
@@ -94,12 +94,12 @@ class Dragon
       puts @name + ' is starving!  In desperation, he ate YOU!'
       exit  #  This quits the program.
     end
-    
+
     if @stuffInIntestine >= 10
       @stuffInIntestine = 0
       puts 'Whoops!  ' + @name + ' had an accident...'
     end
-    
+
     if hungry?
       if @asleep
         @asleep = false
@@ -107,7 +107,7 @@ class Dragon
       end
       puts @name + '\'s stomach grumbles...'
     end
-    
+
     if poopy?
       if @asleep
         @asleep = false
@@ -116,7 +116,7 @@ class Dragon
       puts @name + ' does the potty dance...'
     end
   end
-  
+
 end
 # ============================================================================
 
@@ -139,7 +139,7 @@ while true
   puts "f) Set your dragon free..."
   answer = gets.chomp
 
-  if answer == "a"
+  if answer    == "a"
     pet.feed
   elsif answer == "b"
     pet.walk
@@ -158,3 +158,8 @@ while true
 
   puts
 end
+
+__END__
+
+The Dragon class code was taken from the tutorial ans its rights belong to Chris
+Pine.
