@@ -2,17 +2,20 @@
 Aprende a programar: Respuestas
 ===============================
 
-Este repositorio contiene código como respuesta a los ejercicios sugeridos en el
-tutorial «[Aprende a programar][1]» escrito por [Chris Pine][2]. Por favor,
-utiliza el material que aquí se encuentra sólo como una referencia para ayudarte
-a dar solución a los ejercicios pero tratando de resolverlos por ti mismo.
-Asimismo, toma en cuenta que puede haber más de una forma de resolver un mismo
-ejercicio, así que las soluciones que has encontrado por ti mismo son también
-correctas (siempre que se obtenga el resultado esperado, claro).
+Este repositorio contiene código como respuesta a los ejercicios sugeridos en
+el tutorial «[Aprende a programar][1]» escrito por [Chris Pine][2]. Por favor,
+utiliza el material que aquí se encuentra sólo como una referencia para
+ayudarte a dar solución a los ejercicios pero tratando de resolverlos por ti
+mismo. Asimismo, toma en cuenta que puede haber más de una forma de resolver
+un mismo ejercicio, así que las soluciones que has encontrado por ti mismo son
+también correctas (siempre que se obtenga el resultado esperado, claro).
 
 La soluciones se dan tanto en español (_es_) como en inglés (_en_). Así podrás
 comparar ambos y, si encuentras algún error, puedes enviar correcciones o
-sugerencias.
+sugerencias. Es necesario hacer notar que algunos ejercicios podrían
+resolverse fácilmente usando otras características de Ruby, deben resolverse
+sólo con las técnicas que aparecen a través del tutorial hasta el lugar donde
+aparece cada uno de dichos ejercicios.
 
 Lista de ejercicios
 -------------------
@@ -281,4 +284,4 @@ que es la versión extendida del tutorial.
   [56]: https://github.com/Rojo/Respuestas-de-Aprende-a-Programar/blob/master/En/10%20Blocks%20and%20Procs/10.3_better_logger.rb
   [57]: http://pragprog.com/book/ltp2/learn-to-program
   [58]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
-  
+
