@@ -1,11 +1,11 @@
 Aprende a programar: Respuestas
 ===============================
 
-Éste repositorio contiene código como respuesta a los ejercicios sugeridos en el
+Este repositorio contiene código como respuesta a los ejercicios sugeridos en el
 tutorial «[Aprende a programar][1]» escrito por [Chris Pine][2]. Por favor,
 utiliza el material que aquí se encuentra sólo como una referencia para ayudarte
 a dar solución a los ejercicios pero tratando de resolverlos por ti mismo.
-También, toma en cuenta que puede haber más de una forma de resolver un mismo
+Asimismo, toma en cuenta que puede haber más de una forma de resolver un mismo
 ejercicio, así que las soluciones que has encontrado por ti mismo son también
 correctas (siempre que se obtenga el resultado esperado, claro).
 
@@ -21,7 +21,7 @@ Lista de ejercicios
   - (Es, En) ¿Cuántas horas hay en un año?
   - (Es, En) ¿Cuántos minutos hay en una década?
   - (Es, En) ¿Cuántos segundos de edad tienes?
-  - (Es, En) ¿Cuántos chocolates esperas comer en tu vida? _Advertencia_: ¡Ésta
+  - (Es, En) ¿Cuántos chocolates esperas comer en tu vida? _Advertencia_: ¡Esta
     parte del programa puede tardar un poco en calcularse!
   - (Es, En) Una pregunta un poco más difícil: ¿Si tengo 1031 millones de
     segundos de edad, qué edad tengo en años?
@@ -61,7 +61,7 @@ Lista de ejercicios
     gritando (escribiendo todo en mayúsculas). Si gritas, ella podrá escucharte
     (o al menos eso creerá ella) y te responderá gritando ¡NO, NO DESDE 1938!
     Para hacer el programa realmente creíble, haz que la abuela grite un año
-    cualquiera al azar entre 1930 y 1950. (Ésta parte del programa es opcional
+    cualquiera al azar entre 1930 y 1950. (Esta parte del programa es opcional
     y será mucho más fácil de realizar si lees la sección sobre el generador de
     números aleatorios de Ruby). No puedes dejar de hablar con la abuela hasta
     que grites ADIÓS.
@@ -125,7 +125,7 @@ Lista de ejercicios
     millón de elefantes, ¡te estarás castigando también a ti mismo!)
 
 - **Clases**
-  - (Es, En) «Un millardo de sedundos...» Encuentra el segundo exacto en el que
+  - (Es, En) «Un millardo de segundos...» Encuentra el segundo exacto en el que
     naciste (si es que puedes). Intenta averiguar el segundo exacto en el que
     tendrás (¿o en el que cumpliste, quizá?) un millardo de segundos de edad.
     Cuando lo averigües, marca la fecha en tu calendario.
