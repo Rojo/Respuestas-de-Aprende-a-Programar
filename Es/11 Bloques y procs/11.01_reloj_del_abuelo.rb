@@ -1,4 +1,3 @@
-
 # El reloj del abuelo: Escribe un método que reciba un bloque y lo llame por
 # cada hora que ha pasado el día de hoy. De esa forma, si yo le pasara el bloque
 # do puts '¡DONG!' end, repicaría como un reloj de péndulo. Prueba tu método con
@@ -11,7 +10,7 @@ def reloj &bloque
   hora = Time.now.hour
 
   # Se convierte la hora actual en su equivalente a la que indica un reloj con
-  # caratula de 12 horas.
+  # carátula de 12 horas.
   if hora == 0
     hora = 12
   elsif hora > 12
@@ -20,7 +19,7 @@ def reloj &bloque
 
   hora.times do | n |
   # Se pasa el número de la hora actual al bloque (por si lo utiliza para algo)
-  # sumandole 1 porque .times comienza a contar desde 0.
+  # sumándole 1 porque .times comienza a contar desde 0.
     yield n + 1
   end
 end
@@ -40,7 +39,7 @@ end
 
 puts
 
-# Bloque que añade a un contador todos los digitos de las horas que han pasado
+# Bloque que añade a un contador todos los dígitos de las horas que han pasado
 # en la caratula del reloj.
 @contador = 0
 reloj do | n |
