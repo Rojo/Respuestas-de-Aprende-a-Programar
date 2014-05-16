@@ -1,4 +1,6 @@
 
+# encoding: UTF-8
+
 # ¿Qué tal un programa que escriba números en estilo de números de boda? Debería
 # ser casi lo mismo que numero_a_espanol, pero insertando «y» entre los grupos
 # de unidades, retornando cosas como 'diecinueve cientos y setenta y dos' o como

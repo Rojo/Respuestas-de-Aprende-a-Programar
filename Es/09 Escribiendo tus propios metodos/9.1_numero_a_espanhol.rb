@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # Expande numero_a_espanol. Primero, agrega los miles. Debería retornar 'un mil'
 # (o 'mil' o hasta 'uno mil') en lugar de 'diez cientos' y 'diez mil' en lugar
 # de 'cien cientos cientos'.

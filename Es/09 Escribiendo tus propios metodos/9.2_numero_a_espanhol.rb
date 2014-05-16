@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # Expande numero_a_espanol una vez más. Haz que ahora pueda manejar millones
 # para obtener 'un millón' en lugar de 'un mil mil'. Después intenta agregar
 # millardos, billones, trillones… ¿Hasta dónde puedes llegar?

@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # El reloj del abuelo: Escribe un método que reciba un bloque y lo llame por
 # cada hora que ha pasado el día de hoy. De esa forma, si yo le pasara el bloque
 # do puts '¡DONG!' end, repicaría como un reloj de péndulo. Prueba tu método con

@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # Un mejor registro de programas. La salida del último registro fue un poco
 # difícil de leer y sería peor entre más métodos anidados recibiera. Sería mucho
 # más fácil de leer si sangrara las líneas en los bloques internos. Para

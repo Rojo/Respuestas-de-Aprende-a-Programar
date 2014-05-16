@@ -1,4 +1,6 @@
-  
+
+# encoding: UTF-8
+
 # ¡Feliz cumpleaños!
 # Pregunta en qué año nació una persona, después el mes y por último el día.
 # Averigua su edad y dales una ¡NALGADA! Por cada cumpleaños que han tenido.

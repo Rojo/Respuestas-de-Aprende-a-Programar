@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # Crea la clase Naranjo. Debe tener el método altura que retorna su altura, y el
 # método doceMesesDespues, el cual, cuando es llamado, incrementa la edad del
 # árbol por un año. Cada año, el árbol debe crecer a lo alto (lo que tú
@@ -87,7 +90,7 @@ puts "Altura del árbol: " + arbol.altura.to_s # >> m > n
 puts "Un año después..."
 arbol.doceMesesDespues
 puts "Altura del árbol: " + arbol.altura.to_s # >> o > m
-puts 
+puts
 
 puts "3) El árbol produce más naranjas cada año, excepto los primeros 3 años:"
 puts "¡Un nuevo naranjo germina!"

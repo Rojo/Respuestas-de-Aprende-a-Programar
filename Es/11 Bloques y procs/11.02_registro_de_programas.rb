@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # Registro de programas. Escribe un método llamado registro, que toma una cadena
 # como descripción de un bloque y, por supuesto, un bloque, además de otra
 # cadena al final, diciendo que ha terminado el bloque. De forma similar a

@@ -1,4 +1,6 @@
 
+# encoding: UTF-8
+
 # «Un elefante se balanceaba…»
 # Usando numero_a_espanol y tu viejo programa, escribe la letra de la canción de
 # la forma correcta ésta vez. Castiga a tu computadora: deja que alcance hasta

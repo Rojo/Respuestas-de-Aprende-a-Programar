@@ -1,3 +1,6 @@
+
+# encoding: UTF-8
+
 # Un millardo de segundos...
 # Encuentra el segundo exacto en el que naciste (si es que puedes). Intenta
 # averiguar el segundo exacto en el que tendrás (¿o en el que cumpliste, quizá?)
