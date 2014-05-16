@@ -1,4 +1,3 @@
-
 # Expande numero_a_espanol. Primero, agrega los miles. Debería retornar 'un mil'
 # (o 'mil' o hasta 'uno mil') en lugar de 'diez cientos' y 'diez mil' en lugar
 # de 'cien cientos cientos'.
@@ -34,7 +33,7 @@ def numero_a_espanol numero
   restante  = numero
 
   # Sección de los miles.
-  actual   = restante / 1000          # ¿Cuantos miles se van a escribir?
+  actual   = restante / 1000          # ¿Cuántos miles se van a escribir?
   restante = restante - actual * 1000 # Sustraemos esos miles
 
   if actual > 0
@@ -43,14 +42,14 @@ def numero_a_espanol numero
     texto = texto + miles + ' mil'
 
     if restante > 0
-      # Agregamos un espaco para evitar 'dos milcincuenta y uno'...
+      # Agregamos un espacio para evitar 'dos milcincuenta y uno'...
       texto = texto + ' '
     end
   end
 
   # Sección de los cientos.
 
-  actual    = restante / 100          # ¿Cuantas centenas se van a escribir?
+  actual    = restante / 100          # ¿Cuántas centenas se van a escribir?
   restante  = restante - actual * 100 # Sustraemos esas centenas...
 
   if actual > 0
@@ -89,7 +88,7 @@ def numero_a_espanol numero
   end
 
   # Después, obtengamos las decenas...
-  actual   = restante / 10          # ¿Cuantas decenas se van a escribir?
+  actual   = restante / 10          # ¿Cuántas decenas se van a escribir?
   restante = restante - actual * 10 # Sustraemos esas decenas.
 
   if actual > 0
@@ -108,7 +107,7 @@ def numero_a_espanol numero
         texto = texto + grupo_20[restante - 1]
       end
       # El «-1» es debido a que grupo_20[3] es 'veinticuatro', no 'veintitrés'.
-      # Como ya nos encargamos del digito en lugar de las unidades, ya no hay
+      # Como ya nos encargamos del dígito en lugar de las unidades, ya no hay
       # nada «restante».
 
       restante = 0
@@ -124,7 +123,7 @@ def numero_a_espanol numero
   end
 
   # Por último, si aún queda algo, obtengamos las unidades...
-  actual   = restante # ¿Cuantas unidades se van a escribir?
+  actual   = restante # ¿Cuántas unidades se van a escribir?
   restante = 0        # Sustraemos esas unidades.
 
   if actual > 0

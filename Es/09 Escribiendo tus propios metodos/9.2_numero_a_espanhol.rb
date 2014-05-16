@@ -1,4 +1,3 @@
-
 # Expande numero_a_espanol una vez más. Haz que ahora pueda manejar millones
 # para obtener 'un millón' en lugar de 'un mil mil'. Después intenta agregar
 # millardos, billones, trillones… ¿Hasta dónde puedes llegar?
@@ -34,7 +33,7 @@ def numero_a_espanol numero
       [1e2.to_i , 'cien'        ] # Las centenas son un caso especial.
     ]
 
-    # Éste arreglo contiene los casos especiales para las centenas.
+    # Este arreglo contiene los casos especiales para las centenas.
     centenas = [
       'cien', 'doscientos', 'trescientos', 'cuatrocientos', 'quinientos',
       'seiscientos', 'setecientos', 'ochocientos', 'novecientos'
@@ -71,7 +70,7 @@ def numero_a_espanol numero
             # masculino, se usa la forma apocopada.
             texto = texto + 'veintiún ' + etiqueta[2]
           else
-            # Se hace una llamada recursiva para la parte que sera escrita y se
+            # Se hace una llamada recursiva para la parte que será escrita y se
             # le agrega la etiqueta de magnitud.
             texto = texto + numero_a_espanol(actual) + ' ' + etiqueta[1]
           end
@@ -117,7 +116,7 @@ def numero_pequenho numero
   else
     # Si el número es 10 o mayor, primero obtenemos las decenas.
     restante = numero
-    actual   = restante / 10          # ¿Cuantas decenas se van a escribir?
+    actual   = restante / 10          # ¿Cuántas decenas se van a escribir?
     restante = restante - actual * 10 # Sustraemos esas decenas.
 
     if (actual <= 2) and (restante > 0)
@@ -134,7 +133,7 @@ def numero_pequenho numero
         texto = texto + grupo_20[restante - 1]
       end
       # El «-1» es debido a que grupo_20[3] es 'veinticuatro', no 'veintitrés'.
-      # Como ya nos encargamos del digito en lugar de las unidades, ya no hay
+      # Como ya nos encargamos del dígito en lugar de las unidades, ya no hay
       # nada «restante».
 
       restante = 0
@@ -149,7 +148,7 @@ def numero_pequenho numero
     end
 
     # Por último, si aún queda algo, obtengamos las unidades...
-    actual   = restante # ¿Cuantas unidades se van a escribir?
+    actual   = restante # ¿Cuántas unidades se van a escribir?
     restante = 0        # Sustraemos esas unidades.
 
     if actual > 0
