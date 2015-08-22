@@ -283,6 +283,6 @@ que es la versión extendida del tutorial.
   [55]: https://github.com/Rojo/Respuestas-de-Aprende-a-Programar/blob/master/Es/11%20Bloques%20y%20procs/11.03_mejor_registro.rb
   [56]: https://github.com/Rojo/Respuestas-de-Aprende-a-Programar/blob/master/En/10%20Blocks%20and%20Procs/10.3_better_logger.rb
   [57]: http://pragprog.com/book/ltp2/learn-to-program
-  [58]: https://bitbucket.org/akaiiro/tr-isbn-0-9766940-4-2
+  [58]: https://bitbucket.org/akaiiro/training-book-ruby-learn-to-program/src
   [59]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
 
